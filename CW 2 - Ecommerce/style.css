@@ -1,17 +1,17 @@
 body {
-	
-	line-height: 1;
-    background-color: rgb(255, 255, 255);
-    background-image: url("Images/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+  line-height: 1;
+  background-color: rgb(255, 255, 255);
+  background-image: url("Images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: white;
 }
-	
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 
@@ -19,232 +19,257 @@ table {
 /*-----------------------------Navigation-------------------------------*/
 
 nav {
-			margin: 0;
-			padding: 50%;
-			text-align: center;
-			padding: 2% 0 0 0;
-			
+  margin: 0;
+  padding: 50%;
+  text-align: center;
+  padding: 2% 0 0 0;
+
 }
 
 nav li {
-	display:inline;
-	list-style: none; 
-	padding: 18px;
-  font-family:"Century Gothic";
+  display: inline;
+  list-style: none;
+  padding: 18px;
+  font-family: "Century Gothic";
   font-size: 35px;
-	
+
 }
 
 li a:hover:not(.active) {
-	background-color: transparent;
-	width: 25px;
+  background-color: transparent;
+  width: 25px;
 
-  }
+}
 
 .active {
   background-color: transparent;
   border-bottom: 3px solid #ffffff;
 }
 
-a { color: white;
-text-decoration: none; 
- }
-
-ul {	
-	display: inline;
-	padding: 10px; 
-	font-size: 40px;
-	background-color: rgb(0, 0, 0);
-	border-style: outset;
+a {
+  color: white;
+  text-decoration: none;
 }
+
+ul {
+  display: inline;
+  padding: 10px;
+  font-size: 40px;
+  background-color: rgb(0, 0, 0);
+  border-style: outset;
+}
+
 /*------------------------------END NAV CSS----------------------------------*/
 
-h1{
-  font-family:"Century Gothic";
+h1 {
+  font-family: "Century Gothic";
   color: white;
   font-size: 55px;
 }
 
-h2{
-  font-family:"Century Gothic";
+h2 {
+  font-family: "Century Gothic";
   color: white;
   font-size: 30px;
 }
+
 /* --------------------Footer--------------------------- */
 .footer {
   padding: 1px;
   text-align: center;
   background: rgb(0, 0, 0);
   font-size: 25px;
-  font-family: Arial; 
+  font-family: Arial;
   margin-top: 400px;
-  
+
 }
 
 /*Background styling*/
-.background{
-background-image: url("../Images/background.jpg");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-}    
+.background {
+  background-image: url("../Images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
-  /*column  and row styling used to section pages */
+/*column  and row styling used to section pages */
 
 .column {
-	float: left;
-	width: 25%;
-	padding: 0 0px;
-	margin: 75px;
-  }
+  float: left;
+  width: 25%;
+  padding: 0 0px;
+  margin: 75px;
+}
 
-  
-  .row {margin: 0 -5px;}
-  
-  .row:after {
-	content: "";
-	display:grid;
-	clear: both;
-  }
-  
-  
-    
- 
-  /*====================REGISTER PAGE STYLING======================*/
 
-  .box{
-	width: 450px;
-	height: 500px;
-	border: solid white; 
-	background: black;
-	color:white;
-	position: absolute; right: 500px; top: 620px;
-	transform: translate(-50%,-50%);
-	box-sizing: border-box;
-	
-	
-  }
+.row {
+  margin: 0 -5px;
+}
 
-  .box input {
-	  width: 50%;
-	  margin-bottom: 20px;
-  }
-	  
-  .box input[type = "text"]{
-	  border: none;
-	  border-bottom: 1px solid #ddd;
-	  background:rgb(0, 0, 0);
-	  outline: none;
-	  height: 30px;
-	  font-size: 16px;
-	  opacity: 1;
-	  color: #ccc;
-	  text-align: center;
-  }
+.row:after {
+  content: "";
+  display: grid;
+  clear: both;
+}
+
+
+
+
+/*====================REGISTER PAGE STYLING======================*/
+
+.box {
+  width: 450px;
+  height: 500px;
+  border: solid white;
+  background: black;
+  color: white;
+  position: absolute;
+  right: 500px;
+  top: 620px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+
+
+}
+
+.box input {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.box input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: rgb(0, 0, 0);
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  opacity: 1;
+  color: #ccc;
+  text-align: center;
+}
 
 .box a {
-	font-size: 14px;
-	text-decoration: none;
-	color: #fff;
-	opacity: 0.8;	
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .box a:hover {
-	color: #fff;
-	opacity: 1;
+  color: #fff;
+  opacity: 1;
 }
 
-.bottom-text{
-	color: #fff;
+.bottom-text {
+  color: #fff;
 }
 
-.bottom-text input{
-	width: 10%;
-	float: left;
+.bottom-text input {
+  width: 10%;
+  float: left;
 }
 
-.bottom-text a{
-	float: right;
+.bottom-text a {
+  float: right;
 }
+
 /*------------------------------------------------------------*/
 
 
-  /*SIGNIN PAGE STYLING*/
+/*SIGNIN PAGE STYLING*/
 
-.box1{
-	width: 450px;
-	height: 300px;
-	border: solid white; 
-	background: black;
-	color:white;
-	position: absolute; right: 500px; top: 520px;
-	transform: translate(-50%,-50%);
-	box-sizing: border-box;
-	
-	
-  }
+.box1 {
+  width: 450px;
+  height: 300px;
+  border: solid white;
+  background: black;
+  color: white;
+  position: absolute;
+  right: 500px;
+  top: 520px;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
 
-  .box1 input {
-	  width: 50%;
-	  margin-bottom: 20px;
-  }
-	  
-  .box1 input[type = "text"]{
-	  border: none;
-	  border-bottom: 1px solid #ddd;
-	  background:rgb(0, 0, 0);
-	  outline: none;
-	  height: 30px;
-	  font-size: 16px;
-	  opacity: 1;
-	  color: #ccc;
-	  text-align: center;
-  }
+
+}
+
+.box1 input {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.box1 input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: rgb(0, 0, 0);
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  opacity: 1;
+  color: #ccc;
+  text-align: center;
+}
 
 .box1 b {
-	font-size: 14px;
-	text-decoration: none;
-	color: #fff;
-	opacity: 0.8;	
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
 }
 
 .box1 b:hover {
-	color: #fff;
-	opacity: 1;
+  color: #fff;
+  opacity: 1;
 }
 
-.bottom-text1{
-	color: #fff;
+.bottom-text1 {
+  color: #fff;
 }
 
-.bottom-text1 input{
-	width: 10%;
-	float: left;
+.bottom-text1 input {
+  width: 10%;
+  float: left;
 }
 
-.bottom-text1 b{
-	float: right;
+.bottom-text1 b {
+  float: right;
 }
 
 /*================================slideshow styling==============================*/
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+
+.mySlides {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   float: center;
   margin: auto;
-  position: relative; right: 270px;
+  position: relative;
+  right: 270px;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
-  position:relative; left: 735px;
+  position: relative;
+  left: 735px;
   top: 50%;
   padding: 16px;
   margin-top: 40px;
@@ -262,8 +287,9 @@ img {vertical-align: middle;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -296,116 +322,135 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
+
 /*===============================================================*/
-.container1{
+.container1 {
   padding-left: 18%;
   padding-right: 18%;
 }
 
 /*=============================search button==================================*/
-#search{
+#search {
   width: 130px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  font-family:"Century Gothic";
+  font-family: "Century Gothic";
   background-color: rgb(255, 255, 255);
-  background-position: 10px 10px; 
+  background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 8px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
+
 /* When the input field gets focus, change its width to 100% */
 #search:focus {
   border: 3px solid rgb(39, 164, 236);
 }
 
-.box2{
+.box2 {
   background-color: rgb(0, 0, 0);
   text-align: center;
   border: 3px solid rgb(179, 23, 23);
   color: white;
-  font-family:"Century Gothic";
+  font-family: "Century Gothic";
   position: absolute;
-  top:185px;
-  left:260px;
+  top: 185px;
+  left: 260px;
   padding: 10px;
-  width:60%;
-}/*This is for the contact us to create a box around it*/
+  width: 60%;
+}
+
+/*This is for the contact us to create a box around it*/
 
 /* =================================FAQs page===================================== */
 .card {
-	padding: 100px;
-	text-align: center;
-	background-color: rgb(0, 0, 0);
-	width: 1000px;
-	height: 750px;
-	margin: 90px auto;
-	position: relative; 
-	border: 2px solid rgb(255, 255, 255);
-  }
+  padding: 100px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  width: 1000px;
+  height: 750px;
+  margin: 90px auto;
+  position: relative;
+  border: 2px solid rgb(255, 255, 255);
+}
 
-h3{
-  font-family:"Century Gothic";
+h3 {
+  font-family: "Century Gothic";
   color: white;
   font-size: 35px;
 }
-  
-h4{
-  font-family:"Century Gothic";
+
+h4 {
+  font-family: "Century Gothic";
   color: white;
   font-size: 25px;
 }
+
 /* ================================sort drop down list styling=================================== */
 
-#mens{ 
+#mens {
   float: right;
-  color:white;
+  color: white;
   font-size: 25px;
-  position: relative; right: 27%;
+  position: relative;
+  right: 27%;
   margin: 30px;
   display: block;
   margin-bottom: 10px;
 }
-#sort{
-  float:right; 
+
+#sort {
+  float: right;
   padding: 5px;
-  position: relative; right: 27%;
+  position: relative;
+  right: 27%;
   margin: 30px;
 
 }
+
 /* ================================basket page=================================== */
 
 .row {
-  display: -ms-flexbox; 
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap; 
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 -16px;
 }
 
 .col-25 {
-  -ms-flex: 25%; 
+  -ms-flex: 25%;
   flex: 25%;
 }
 
 .col-50 {
-  -ms-flex: 50%; 
+  -ms-flex: 50%;
   flex: 50%;
 }
 
 .col-75 {
-  -ms-flex: 75%; 
+  -ms-flex: 75%;
   flex: 75%;
 }
 
@@ -433,7 +478,7 @@ input[type=text] {
 label {
   margin-bottom: 10px;
   display: block;
-  color:white;
+  color: white;
   font-size: 25px;
 }
 

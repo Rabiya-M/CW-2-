@@ -130,7 +130,6 @@ outputNavigation("Home");
     <h1>Latest Drops</h1>
   </center>
 
-
   <div class="row">
     <div class="column">
       <img src="Images/no1.png" onmouseover="this.src='Images/no0.png'" onmouseout="this.src='Images/no1.png'" width="400" height="400" alt="shoes" />
