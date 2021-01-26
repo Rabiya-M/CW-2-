@@ -122,8 +122,6 @@ outputNavigation("Home");
 
   <br>
 
-  <p>test</p>
-
   <!-- Rollover images of shoes -->
 
   <center>
@@ -134,10 +132,6 @@ outputNavigation("Home");
     <div class="column">
       <img src="Images/no1.png" onmouseover="this.src='Images/no0.png'" onmouseout="this.src='Images/no1.png'" width="400" height="400" alt="shoes" />
       <h2>Nike Air VaporMax Plus</h2>
-
-
-      <h2>NEWWWWWWWWWWWW</h2>
-
 
     </div>
     <div class="column">
