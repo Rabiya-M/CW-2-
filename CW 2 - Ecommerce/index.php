@@ -87,6 +87,9 @@ function showSlides(n) {
   <h2>Nike Air VaporMax Plus</h2>
 
 
+  <h2>NEWWWWWWWWWWWW</h2>
+
+
   </div>
   <div class="column">
   <img src="Images/no3.png" onmouseover="this.src='Images/no2.png'" onmouseout= "this.src='Images/no3.png'" width= "400" height="400" alt="shoes"/>     
